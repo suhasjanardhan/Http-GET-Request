@@ -1,0 +1,13 @@
+# _*_ Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+
+	gcc webserver.c -o server
+	gcc webclient.c -o clt 
+	
+clean:
+	rm server
+	rm clt
